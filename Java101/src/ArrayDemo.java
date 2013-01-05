@@ -1,7 +1,9 @@
 
 public class ArrayDemo {
 	/*
-	 *  Array can contain single data type 
+	 *  Array can contain single data type
+	 *  changed
+	 *   
 	 */
 	public static void main(String[] args) {
 		/*
