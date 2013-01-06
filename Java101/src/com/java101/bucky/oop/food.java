@@ -2,19 +2,13 @@ package com.java101.bucky.oop;
 
 /*
  * Polymorphism
- * 
+ *  abstract class cannot be instantiated
+ *  only used to be extended to another class
+ *  
+ *  made to be a super class
  */
-public class food {
-
+abstract public class food {
 	
-	public void eat(){
-		System.out.println("this food is great");
-	}
-	
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	//abstract method needs to be overriden
+	public abstract void eat();
 }

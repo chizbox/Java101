@@ -17,15 +17,12 @@ public class apple {
 	
 	public static void polyMorph_2(){
 		fatty bucky = new fatty();
-		food fo = new food();
+		food fo = new tuna();
 		food po = new potpie();
 		
 		bucky.digest(fo);
 		bucky.digest(po);
 	}
-	
-	
-	
 	
 	public static void main(String[] args) {
 		//polyMorph_1();
